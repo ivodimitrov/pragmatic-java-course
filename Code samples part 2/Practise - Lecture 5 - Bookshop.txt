@@ -1,0 +1,59 @@
+Develop 3 classes:
+
+Book
+
+ - String author
+
+ - String name
+
+ - String isdn;
+
+ - double price;
+
+ - int yearPublished;
+
+
+
+Implement a method calculatePrice, which returns price + VAT for all books 
+
+published after 1990 and, (price + VAT) - 10% for all books before 1990.
+
+
+
+Person
+
+ - String name
+
+ - double money
+
+
+
+ - boolean purchaseBook(Book book) - method which gets the book price and validates 
+
+ if the person has enough money. If so, prints a message that the book.name was purchased 
+
+ by person.name and reduces the amount of money.
+
+ Otherwise, prints a message that informs that the person does not have sufficient funds. 
+
+ Returns true or false depending on the operation result
+
+
+
+Implement constructor for both classes above.
+
+
+
+Bookshop:
+
+ - double money;
+
+ - in main method, create a few books (using Scanner), create a couple of Person 
+
+ instances, and a Bookshop instance.
+
+ - create a sellBook(Book book, Person person) method which tries to sell a 
+
+ book to a person. If succeeded, increase money in Bookshop;
+
+Last modified: Thursday, 26 May 2016, 6:47 PM

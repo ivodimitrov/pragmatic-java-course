@@ -1,0 +1,18 @@
+Упражнение - Employee - Collections
+Съставете клас Employee със следните полета:
+- String name;
+- int age;
+- double salary;
+
+Съставете клас Company със следните полета:
+- List<Employee> employees.
+Инициализирайте го с празен списък (ArrayList) в конструктора по подразбиране.
+Добавете и реализирайте методи:
+- void addEmployee(Employee employee) - добавяте обекта в списъка
+- void removeEmployee(double salary) - изтрийте всички Employee от списъка със заплата >= на тази подадена като аргумент
+- void printSortedByName() - принтира по азбучен ред
+- void printSortedBySalaryDesc() - принтира по заплата, започвайки от най-голямата
+- void printSortedByAgeAsc() - принтира по години, започвайки от най-младия служител
+
+Съставете клас CompanyDemo. Създайте обект от Company и използвайки цикъл, въведете от клавиатурата информация за няколко служителя и ги добавете към Company обекта.
+Покажете използване на дефинираните методи в класа Company.

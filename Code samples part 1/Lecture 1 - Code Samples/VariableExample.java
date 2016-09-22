@@ -1,0 +1,25 @@
+package lesson01;
+
+public class VariableExample {
+	
+	public static void main(String[] args) {
+		
+		int age = 18;
+		System.out.println(age);
+		age = 20;
+		System.out.println(age);
+
+		age = age + 1;
+		age = age - 1;
+		age = age / 2;
+		System.out.println(age);
+		
+		double pi = 3.14;
+		pi = pi + 100.2;
+		System.out.println("Pi is " + pi);
+		
+		char plus = '+';
+		boolean isMonday = false;
+	}
+	
+}
